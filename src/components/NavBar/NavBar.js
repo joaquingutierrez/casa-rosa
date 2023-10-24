@@ -1,21 +1,21 @@
 import React from 'react';
 import './NavBar.css'
-import {  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const NavBar = () => {
     return (
-        <div>
-            <nav className='flex content-between'>
+        <div className='bodyNav'>
+            <nav className='flex justify-between'>
                 <Link>
                     HOME
                 </Link>
                 <Link>
                     NOSOTROS
                 </Link>
-                <h1>
-                    Hola soy el navbar
-                </h1>
+                <Link>
+                    PRODUCTOS
+                </Link>
             </nav>
         </div>
 

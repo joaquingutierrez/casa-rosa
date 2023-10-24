@@ -6,12 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
     <NavBar />
   
-      <h1>Casa Rosa</h1>
+      <h1 className='flex '>Casa Rosa</h1>
     
-    </>
+    </BrowserRouter>
   
   );
 }
